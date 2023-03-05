@@ -44,6 +44,9 @@ struct ToDoListView: View {
         .sheet(item: $modelType) { modelType in
             modelType
         }
+        .alert(item: $dataStore.appError) { appError in
+            Alert(title: Text("ohh"), message: Text(appError.error.localizedDescription))
+        }
     }
 }
 
