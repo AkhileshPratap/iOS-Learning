@@ -13,6 +13,8 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @Injected private var logger: Loggable
     
+    @State private var viewModel: ContentViewModel = ContentViewModel()
+    
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
@@ -20,6 +22,7 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
+            Text("bhagavad_gita_chapter \(1)")
             List {
                 ForEach(items) { item in
                     NavigationLink {
@@ -40,7 +43,7 @@ struct ContentView: View {
                     }
                 }
             }.onAppear {
-                logger.verbose("some message")
+                viewModel.onAppear()
             }
             Text("Select an item")
         }

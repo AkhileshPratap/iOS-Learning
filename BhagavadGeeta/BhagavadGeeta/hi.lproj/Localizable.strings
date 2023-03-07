@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  BhagavadGeeta
+
+  Created by AkhileshSingh on 07/03/23.
+  
+*/
+"bhagavad_gita" = "Bhagavad Gita";
+"bhagavad_gita_chapter" = "Bhagavad Gita Chapter";
+
+// contain valie
+"bhagavad_gita_chapter %@" = "Bhagavad Gita Chapter: %@";
