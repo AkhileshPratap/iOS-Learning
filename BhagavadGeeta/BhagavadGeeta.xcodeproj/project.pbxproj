@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0981E0B229B74ADD00C48660 /* BhagavadGeetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0B129B74ADD00C48660 /* BhagavadGeetaApp.swift */; };
+		0981E0B429B74ADD00C48660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0B329B74ADD00C48660 /* ContentView.swift */; };
+		0981E0B629B74ADF00C48660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0981E0B529B74ADF00C48660 /* Assets.xcassets */; };
+		0981E0B929B74ADF00C48660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0981E0B829B74ADF00C48660 /* Preview Assets.xcassets */; };
+		0981E0BB29B74ADF00C48660 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0BA29B74ADF00C48660 /* Persistence.swift */; };
+		0981E0BE29B74ADF00C48660 /* BhagavadGeeta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0BC29B74ADF00C48660 /* BhagavadGeeta.xcdatamodeld */; };
+		0981E0C829B74ADF00C48660 /* BhagavadGeetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0C729B74ADF00C48660 /* BhagavadGeetaTests.swift */; };
+		0981E0D229B74ADF00C48660 /* BhagavadGeetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0D129B74ADF00C48660 /* BhagavadGeetaUITests.swift */; };
+		0981E0D429B74ADF00C48660 /* BhagavadGeetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0D329B74ADF00C48660 /* BhagavadGeetaUITestsLaunchTests.swift */; };
+		0981E0E229B7661200C48660 /* APUtility in Frameworks */ = {isa = PBXBuildFile; productRef = 0981E0E129B7661200C48660 /* APUtility */; };
+		0981E0E629B7698C00C48660 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = 0981E0E529B7698C00C48660 /* SwiftyBeaver */; };
+		0981E0E829B76A1B00C48660 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0E729B76A1B00C48660 /* Logger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0981E0C429B74ADF00C48660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0981E0A629B74ADD00C48660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0981E0AD29B74ADD00C48660;
+			remoteInfo = BhagavadGeeta;
+		};
+		0981E0CE29B74ADF00C48660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0981E0A629B74ADD00C48660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0981E0AD29B74ADD00C48660;
+			remoteInfo = BhagavadGeeta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0981E0AE29B74ADD00C48660 /* BhagavadGeeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BhagavadGeeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0981E0B129B74ADD00C48660 /* BhagavadGeetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGeetaApp.swift; sourceTree = "<group>"; };
+		0981E0B329B74ADD00C48660 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0981E0B529B74ADF00C48660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0981E0B829B74ADF00C48660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0981E0BA29B74ADF00C48660 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0981E0BD29B74ADF00C48660 /* BhagavadGeeta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BhagavadGeeta.xcdatamodel; sourceTree = "<group>"; };
+		0981E0C329B74ADF00C48660 /* BhagavadGeetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhagavadGeetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0981E0C729B74ADF00C48660 /* BhagavadGeetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGeetaTests.swift; sourceTree = "<group>"; };
+		0981E0CD29B74ADF00C48660 /* BhagavadGeetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhagavadGeetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0981E0D129B74ADF00C48660 /* BhagavadGeetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGeetaUITests.swift; sourceTree = "<group>"; };
+		0981E0D329B74ADF00C48660 /* BhagavadGeetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGeetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0981E0E729B76A1B00C48660 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0981E0AB29B74ADD00C48660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0981E0E229B7661200C48660 /* APUtility in Frameworks */,
+				0981E0E629B7698C00C48660 /* SwiftyBeaver in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0981E0C029B74ADF00C48660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0981E0CA29B74ADF00C48660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0981E0A529B74ADD00C48660 = {
+			isa = PBXGroup;
+			children = (
+				0981E0B029B74ADD00C48660 /* BhagavadGeeta */,
+				0981E0C629B74ADF00C48660 /* BhagavadGeetaTests */,
+				0981E0D029B74ADF00C48660 /* BhagavadGeetaUITests */,
+				0981E0AF29B74ADD00C48660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0981E0AF29B74ADD00C48660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0981E0AE29B74ADD00C48660 /* BhagavadGeeta.app */,
+				0981E0C329B74ADF00C48660 /* BhagavadGeetaTests.xctest */,
+				0981E0CD29B74ADF00C48660 /* BhagavadGeetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0981E0B029B74ADD00C48660 /* BhagavadGeeta */ = {
+			isa = PBXGroup;
+			children = (
+				0981E0B129B74ADD00C48660 /* BhagavadGeetaApp.swift */,
+				0981E0B329B74ADD00C48660 /* ContentView.swift */,
+				0981E0B529B74ADF00C48660 /* Assets.xcassets */,
+				0981E0BA29B74ADF00C48660 /* Persistence.swift */,
+				0981E0E729B76A1B00C48660 /* Logger.swift */,
+				0981E0BC29B74ADF00C48660 /* BhagavadGeeta.xcdatamodeld */,
+				0981E0B729B74ADF00C48660 /* Preview Content */,
+			);
+			path = BhagavadGeeta;
+			sourceTree = "<group>";
+		};
+		0981E0B729B74ADF00C48660 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0981E0B829B74ADF00C48660 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0981E0C629B74ADF00C48660 /* BhagavadGeetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0981E0C729B74ADF00C48660 /* BhagavadGeetaTests.swift */,
+			);
+			path = BhagavadGeetaTests;
+			sourceTree = "<group>";
+		};
+		0981E0D029B74ADF00C48660 /* BhagavadGeetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0981E0D129B74ADF00C48660 /* BhagavadGeetaUITests.swift */,
+				0981E0D329B74ADF00C48660 /* BhagavadGeetaUITestsLaunchTests.swift */,
+			);
+			path = BhagavadGeetaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0981E0AD29B74ADD00C48660 /* BhagavadGeeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0981E0D729B74ADF00C48660 /* Build configuration list for PBXNativeTarget "BhagavadGeeta" */;
+			buildPhases = (
+				0981E0E329B7678C00C48660 /* Swiftlint */,
+				0981E0AC29B74ADD00C48660 /* Resources */,
+				0981E0AB29B74ADD00C48660 /* Frameworks */,
+				0981E0AA29B74ADD00C48660 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BhagavadGeeta;
+			packageProductDependencies = (
+				0981E0E129B7661200C48660 /* APUtility */,
+				0981E0E529B7698C00C48660 /* SwiftyBeaver */,
+			);
+			productName = BhagavadGeeta;
+			productReference = 0981E0AE29B74ADD00C48660 /* BhagavadGeeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0981E0C229B74ADF00C48660 /* BhagavadGeetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0981E0DA29B74ADF00C48660 /* Build configuration list for PBXNativeTarget "BhagavadGeetaTests" */;
+			buildPhases = (
+				0981E0BF29B74ADF00C48660 /* Sources */,
+				0981E0C029B74ADF00C48660 /* Frameworks */,
+				0981E0C129B74ADF00C48660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0981E0C529B74ADF00C48660 /* PBXTargetDependency */,
+			);
+			name = BhagavadGeetaTests;
+			productName = BhagavadGeetaTests;
+			productReference = 0981E0C329B74ADF00C48660 /* BhagavadGeetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0981E0CC29B74ADF00C48660 /* BhagavadGeetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0981E0DD29B74ADF00C48660 /* Build configuration list for PBXNativeTarget "BhagavadGeetaUITests" */;
+			buildPhases = (
+				0981E0C929B74ADF00C48660 /* Sources */,
+				0981E0CA29B74ADF00C48660 /* Frameworks */,
+				0981E0CB29B74ADF00C48660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0981E0CF29B74ADF00C48660 /* PBXTargetDependency */,
+			);
+			name = BhagavadGeetaUITests;
+			productName = BhagavadGeetaUITests;
+			productReference = 0981E0CD29B74ADF00C48660 /* BhagavadGeetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0981E0A629B74ADD00C48660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0981E0AD29B74ADD00C48660 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0981E0C229B74ADF00C48660 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0981E0AD29B74ADD00C48660;
+					};
+					0981E0CC29B74ADF00C48660 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0981E0AD29B74ADD00C48660;
+					};
+				};
+			};
+			buildConfigurationList = 0981E0A929B74ADD00C48660 /* Build configuration list for PBXProject "BhagavadGeeta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0981E0A529B74ADD00C48660;
+			packageReferences = (
+				0981E0E029B7661200C48660 /* XCRemoteSwiftPackageReference "APUtility" */,
+				0981E0E429B7698C00C48660 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+			);
+			productRefGroup = 0981E0AF29B74ADD00C48660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0981E0AD29B74ADD00C48660 /* BhagavadGeeta */,
+				0981E0C229B74ADF00C48660 /* BhagavadGeetaTests */,
+				0981E0CC29B74ADF00C48660 /* BhagavadGeetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0981E0AC29B74ADD00C48660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0981E0B929B74ADF00C48660 /* Preview Assets.xcassets in Resources */,
+				0981E0B629B74ADF00C48660 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0981E0C129B74ADF00C48660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0981E0CB29B74ADF00C48660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0981E0E329B7678C00C48660 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0981E0AA29B74ADD00C48660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0981E0E829B76A1B00C48660 /* Logger.swift in Sources */,
+				0981E0BB29B74ADF00C48660 /* Persistence.swift in Sources */,
+				0981E0B429B74ADD00C48660 /* ContentView.swift in Sources */,
+				0981E0BE29B74ADF00C48660 /* BhagavadGeeta.xcdatamodeld in Sources */,
+				0981E0B229B74ADD00C48660 /* BhagavadGeetaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0981E0BF29B74ADF00C48660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0981E0C829B74ADF00C48660 /* BhagavadGeetaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0981E0C929B74ADF00C48660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0981E0D229B74ADF00C48660 /* BhagavadGeetaUITests.swift in Sources */,
+				0981E0D429B74ADF00C48660 /* BhagavadGeetaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0981E0C529B74ADF00C48660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0981E0AD29B74ADD00C48660 /* BhagavadGeeta */;
+			targetProxy = 0981E0C429B74ADF00C48660 /* PBXContainerItemProxy */;
+		};
+		0981E0CF29B74ADF00C48660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0981E0AD29B74ADD00C48660 /* BhagavadGeeta */;
+			targetProxy = 0981E0CE29B74ADF00C48660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0981E0D529B74ADF00C48660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0981E0D629B74ADF00C48660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0981E0D829B74ADF00C48660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BhagavadGeeta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilesh.BhagavadGeeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0981E0D929B74ADF00C48660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BhagavadGeeta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilesh.BhagavadGeeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0981E0DB29B74ADF00C48660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilesh.BhagavadGeetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagavadGeeta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagavadGeeta";
+			};
+			name = Debug;
+		};
+		0981E0DC29B74ADF00C48660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilesh.BhagavadGeetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagavadGeeta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagavadGeeta";
+			};
+			name = Release;
+		};
+		0981E0DE29B74ADF00C48660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilesh.BhagavadGeetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BhagavadGeeta;
+			};
+			name = Debug;
+		};
+		0981E0DF29B74ADF00C48660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilesh.BhagavadGeetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BhagavadGeeta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0981E0A929B74ADD00C48660 /* Build configuration list for PBXProject "BhagavadGeeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0981E0D529B74ADF00C48660 /* Debug */,
+				0981E0D629B74ADF00C48660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0981E0D729B74ADF00C48660 /* Build configuration list for PBXNativeTarget "BhagavadGeeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0981E0D829B74ADF00C48660 /* Debug */,
+				0981E0D929B74ADF00C48660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0981E0DA29B74ADF00C48660 /* Build configuration list for PBXNativeTarget "BhagavadGeetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0981E0DB29B74ADF00C48660 /* Debug */,
+				0981E0DC29B74ADF00C48660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0981E0DD29B74ADF00C48660 /* Build configuration list for PBXNativeTarget "BhagavadGeetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0981E0DE29B74ADF00C48660 /* Debug */,
+				0981E0DF29B74ADF00C48660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0981E0E029B7661200C48660 /* XCRemoteSwiftPackageReference "APUtility" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AkhileshPratap/APUtility";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		0981E0E429B7698C00C48660 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0981E0E129B7661200C48660 /* APUtility */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0981E0E029B7661200C48660 /* XCRemoteSwiftPackageReference "APUtility" */;
+			productName = APUtility;
+		};
+		0981E0E529B7698C00C48660 /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0981E0E429B7698C00C48660 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0981E0BC29B74ADF00C48660 /* BhagavadGeeta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0981E0BD29B74ADF00C48660 /* BhagavadGeeta.xcdatamodel */,
+			);
+			currentVersion = 0981E0BD29B74ADF00C48660 /* BhagavadGeeta.xcdatamodel */;
+			path = BhagavadGeeta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0981E0A629B74ADD00C48660 /* Project object */;
+}

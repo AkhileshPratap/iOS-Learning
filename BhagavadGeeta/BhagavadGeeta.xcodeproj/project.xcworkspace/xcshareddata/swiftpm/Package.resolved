@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "aputility",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AkhileshPratap/APUtility",
+      "state" : {
+        "revision" : "2ad361d0937288b22511aa5e4deea3c86e52180a",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swiftybeaver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyBeaver/SwiftyBeaver",
+      "state" : {
+        "revision" : "1080914828ef1c9ca9cd2bad50667b3d847dabff",
+        "version" : "2.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
