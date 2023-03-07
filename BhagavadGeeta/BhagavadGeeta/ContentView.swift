@@ -11,7 +11,8 @@ import APUtility
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
-
+    @Injected private var logger: Loggable
+    
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
@@ -39,8 +40,7 @@ struct ContentView: View {
                     }
                 }
             }.onAppear {
-                let logger: Loggable = Logger()
-                Loggers.shared.verbose("some message")
+                logger.verbose("some message")
             }
             Text("Select an item")
         }

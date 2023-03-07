@@ -19,6 +19,8 @@
 		0981E0E229B7661200C48660 /* APUtility in Frameworks */ = {isa = PBXBuildFile; productRef = 0981E0E129B7661200C48660 /* APUtility */; };
 		0981E0E629B7698C00C48660 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = 0981E0E529B7698C00C48660 /* SwiftyBeaver */; };
 		0981E0E829B76A1B00C48660 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0E729B76A1B00C48660 /* Logger.swift */; };
+		0981E0EB29B784D800C48660 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 0981E0EA29B784D800C48660 /* Swinject */; };
+		0981E0ED29B7850400C48660 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E0EC29B7850400C48660 /* Injection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 		0981E0D129B74ADF00C48660 /* BhagavadGeetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGeetaUITests.swift; sourceTree = "<group>"; };
 		0981E0D329B74ADF00C48660 /* BhagavadGeetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGeetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0981E0E729B76A1B00C48660 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		0981E0EC29B7850400C48660 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			files = (
 				0981E0E229B7661200C48660 /* APUtility in Frameworks */,
 				0981E0E629B7698C00C48660 /* SwiftyBeaver in Frameworks */,
+				0981E0EB29B784D800C48660 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +113,7 @@
 				0981E0B529B74ADF00C48660 /* Assets.xcassets */,
 				0981E0BA29B74ADF00C48660 /* Persistence.swift */,
 				0981E0E729B76A1B00C48660 /* Logger.swift */,
+				0981E0EC29B7850400C48660 /* Injection.swift */,
 				0981E0BC29B74ADF00C48660 /* BhagavadGeeta.xcdatamodeld */,
 				0981E0B729B74ADF00C48660 /* Preview Content */,
 			);
@@ -160,6 +165,7 @@
 			packageProductDependencies = (
 				0981E0E129B7661200C48660 /* APUtility */,
 				0981E0E529B7698C00C48660 /* SwiftyBeaver */,
+				0981E0EA29B784D800C48660 /* Swinject */,
 			);
 			productName = BhagavadGeeta;
 			productReference = 0981E0AE29B74ADD00C48660 /* BhagavadGeeta.app */;
@@ -236,6 +242,7 @@
 			packageReferences = (
 				0981E0E029B7661200C48660 /* XCRemoteSwiftPackageReference "APUtility" */,
 				0981E0E429B7698C00C48660 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				0981E0E929B784D800C48660 /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			productRefGroup = 0981E0AF29B74ADD00C48660 /* Products */;
 			projectDirPath = "";
@@ -303,6 +310,7 @@
 				0981E0E829B76A1B00C48660 /* Logger.swift in Sources */,
 				0981E0BB29B74ADF00C48660 /* Persistence.swift in Sources */,
 				0981E0B429B74ADD00C48660 /* ContentView.swift in Sources */,
+				0981E0ED29B7850400C48660 /* Injection.swift in Sources */,
 				0981E0BE29B74ADF00C48660 /* BhagavadGeeta.xcdatamodeld in Sources */,
 				0981E0B229B74ADD00C48660 /* BhagavadGeetaApp.swift in Sources */,
 			);
@@ -641,6 +649,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		0981E0E929B784D800C48660 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -653,6 +669,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0981E0E429B7698C00C48660 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
 			productName = SwiftyBeaver;
+		};
+		0981E0EA29B784D800C48660 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0981E0E929B784D800C48660 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
 		};
 /* End XCSwiftPackageProductDependency section */
 
