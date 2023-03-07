@@ -32,6 +32,9 @@ final class Injection {
         container.register(Loggable.self) { _ in
             return Logger()
         }
+        container.register(AnalyticsManagerProtocol.self) { _ in
+            return AnalyticsManager(analyticsLogger: FirebaseAnalyticsManager())
+        }
         return container
     }
 }

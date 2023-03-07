@@ -27,6 +27,7 @@
 		0981E10B29B7A50100C48660 /* BhagavadGita-QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0981E10A29B7A50100C48660 /* BhagavadGita-QA.xcconfig */; };
 		0981E10D29B7A51500C48660 /* BhagavadGita-Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0981E10C29B7A51500C48660 /* BhagavadGita-Prod.xcconfig */; };
 		0981E11029B7A67F00C48660 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E10F29B7A67F00C48660 /* ConfigurationManager.swift */; };
+		0981E11229B7AF3600C48660 /* AnalyticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981E11129B7AF3600C48660 /* AnalyticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		0981E10C29B7A51500C48660 /* BhagavadGita-Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BhagavadGita-Prod.xcconfig"; sourceTree = "<group>"; };
 		0981E10E29B7A63900C48660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0981E10F29B7A67F00C48660 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		0981E11129B7AF3600C48660 /* AnalyticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				0981E0BA29B74ADF00C48660 /* Persistence.swift */,
 				0981E0E729B76A1B00C48660 /* Logger.swift */,
 				0981E0EC29B7850400C48660 /* Injection.swift */,
+				0981E11129B7AF3600C48660 /* AnalyticManager.swift */,
 				0981E0F229B7898900C48660 /* Localizable.strings */,
 				0981E0BC29B74ADF00C48660 /* BhagavadGeeta.xcdatamodeld */,
 				0981E0B729B74ADF00C48660 /* Preview Content */,
@@ -360,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0981E11229B7AF3600C48660 /* AnalyticManager.swift in Sources */,
 				0981E11029B7A67F00C48660 /* ConfigurationManager.swift in Sources */,
 				0981E0E829B76A1B00C48660 /* Logger.swift in Sources */,
 				0981E0BB29B74ADF00C48660 /* Persistence.swift in Sources */,
